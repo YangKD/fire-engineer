@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://yangkd.github.io/fire-engineer/sitemap.xml
