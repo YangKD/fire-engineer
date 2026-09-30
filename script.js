@@ -1,0 +1,2 @@
+const m=document.querySelector('.menu'),links=document.querySelector('.links');m.addEventListener('click',()=>links.classList.toggle('open'));document.querySelectorAll('.links a').forEach(a=>a.addEventListener('click',()=>links.classList.remove('open')));
+function copyLine(){navigator.clipboard.writeText('jonny100102111').then(()=>{const t=document.getElementById('toast');t.classList.add('show');setTimeout(()=>t.classList.remove('show'),1800)})}
