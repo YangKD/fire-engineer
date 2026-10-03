@@ -919,3 +919,44 @@ img,svg,video{max-width:100%;height:auto}
   .error-card{padding:34px 22px}
   .error-card h1{font-size:30px}
 }
+
+
+/* Shared subpage navigation and dual contact CTAs */
+.page-mini-nav{
+  display:flex;
+  align-items:center;
+  gap:18px;
+}
+.page-mini-nav a{
+  color:#303331;
+  text-decoration:none;
+  font-size:12px;
+  font-weight:700;
+}
+.page-mini-nav .page-line-link{
+  padding:8px 13px;
+  border:1px solid #1d2221;
+  border-radius:999px;
+}
+.cta-actions{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:10px;
+  margin-top:12px;
+}
+.service-page .service-cta .cta-actions a,
+.article-wrap .cta-box .cta-actions a{
+  margin-top:0;
+}
+.service-page .service-cta .line-link,
+.article-wrap .cta-box .line-link{
+  background:transparent;
+  border:1px solid #c4d84a;
+  color:#f5f3ee;
+}
+@media(max-width:820px){
+  .page-mini-nav a:not(.page-line-link){display:none}
+  .page-mini-nav{margin-left:auto}
+  .page-mini-nav .page-line-link{font-size:11px;padding:7px 11px}
+}
