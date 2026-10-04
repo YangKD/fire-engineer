@@ -960,3 +960,154 @@ img,svg,video{max-width:100%;height:auto}
   .page-mini-nav{margin-left:auto}
   .page-mini-nav .page-line-link{font-size:11px;padding:7px 11px}
 }
+
+
+/* LinkedIn-ready digital business card */
+.ecard-body{
+  margin:0;
+  min-height:100vh;
+  background:
+    radial-gradient(circle at 15% 10%,rgba(196,216,74,.14),transparent 28%),
+    linear-gradient(145deg,#171c1b 0%,#242b29 100%);
+  color:#1d2221;
+}
+.ecard-shell{
+  min-height:100vh;
+  display:grid;
+  place-items:center;
+  padding:32px 18px;
+}
+.ecard{
+  width:min(680px,100%);
+  background:#f5f3ee;
+  border-radius:26px;
+  padding:30px;
+  box-shadow:0 28px 80px rgba(0,0,0,.28);
+  border:1px solid rgba(255,255,255,.08);
+}
+.ecard-topline{
+  display:flex;
+  justify-content:space-between;
+  gap:16px;
+  font-size:9px;
+  letter-spacing:1.6px;
+  color:#7a807a;
+}
+.ecard-hero{
+  display:grid;
+  grid-template-columns:112px 1fr;
+  gap:22px;
+  align-items:center;
+  margin:34px 0 24px;
+}
+.ecard-hero img{
+  width:96px;
+  height:96px;
+  object-fit:contain;
+}
+.ecard-role{
+  margin:0 0 2px;
+  color:#83920f;
+  font-size:13px;
+  font-weight:800;
+  letter-spacing:1.2px;
+}
+.ecard h1{
+  margin:0;
+  font-size:44px;
+  line-height:1.1;
+  letter-spacing:5px;
+}
+.ecard-company{
+  margin:9px 0 0;
+  color:#676d67;
+  font-size:13px;
+  line-height:1.7;
+}
+.ecard-services{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  margin-bottom:24px;
+}
+.ecard-services span{
+  padding:8px 11px;
+  border-radius:999px;
+  border:1px solid #d9dbd5;
+  background:#fff;
+  font-size:11px;
+  color:#525852;
+}
+.ecard-contact{
+  border-top:1px solid #d6d8d1;
+}
+.ecard-contact>a,.ecard-contact>div{
+  display:grid;
+  grid-template-columns:86px 1fr auto;
+  gap:12px;
+  align-items:center;
+  min-height:58px;
+  padding:12px 0;
+  border-bottom:1px solid #d6d8d1;
+  color:#1d2221;
+  text-decoration:none;
+}
+.ecard-contact small{
+  font-size:9px;
+  letter-spacing:1.3px;
+  color:#8a908a;
+}
+.ecard-contact strong{
+  font-size:13px;
+  overflow-wrap:anywhere;
+}
+.ecard-contact b{
+  font-size:14px;
+  color:#83920f;
+}
+.ecard-actions{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:10px;
+  margin-top:24px;
+}
+.ecard-actions a{
+  display:grid;
+  place-items:center;
+  min-height:48px;
+  border-radius:999px;
+  text-decoration:none;
+  font-weight:800;
+  font-size:13px;
+}
+.ecard-primary{
+  background:#c4d84a;
+  color:#171b1a;
+}
+.ecard-secondary{
+  border:1px solid #1d2221;
+  color:#1d2221;
+}
+.ecard-note{
+  margin-top:24px;
+  padding-top:20px;
+  border-top:1px solid #d6d8d1;
+}
+.ecard-note b{
+  font-size:12px;
+}
+.ecard-note p{
+  margin:5px 0 0;
+  color:#6c726c;
+  font-size:12px;
+  line-height:1.8;
+}
+@media(max-width:620px){
+  .ecard{padding:24px 20px;border-radius:20px}
+  .ecard-hero{grid-template-columns:82px 1fr;gap:16px}
+  .ecard-hero img{width:74px;height:74px}
+  .ecard h1{font-size:36px;letter-spacing:4px}
+  .ecard-contact>a,.ecard-contact>div{grid-template-columns:68px minmax(0,1fr) auto}
+  .ecard-contact strong{font-size:12px}
+  .ecard-actions{grid-template-columns:1fr}
+}
