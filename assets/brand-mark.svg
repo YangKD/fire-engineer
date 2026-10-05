@@ -1,16 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title desc">
-<title id="title">楊凱迪消防設備師事務所識別標誌</title>
-<desc id="desc">結合盾牌、火焰與建築線條的消防工程識別標誌</desc>
-<defs>
-  <linearGradient id="gDark" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0" stop-color="#3b4443"/><stop offset="1" stop-color="#171c1b"/>
-  </linearGradient>
-  <linearGradient id="gAccent" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0" stop-color="#dce949"/><stop offset="1" stop-color="#879712"/>
-  </linearGradient>
-</defs>
-<path fill="url(#gDark)" d="M60 7 18 29v44c0 21 14 36 42 47v-15c-18-8-27-18-27-32V38l27-14V7Z"/>
-<path fill="url(#gAccent)" d="M60 7 102 29v44c0 21-14 36-42 47v-15c18-8 27-18 27-32V38L60 24V7Z"/>
-<path fill="url(#gDark)" d="M64 34 79 25v62H64V34Zm20 20 10-7v40H84V54Z"/>
-<path fill="url(#gAccent)" d="M52 29c5 16-4 22-9 31-6 10-4 23 5 31-2-10 7-15 11-23 5-10 0-25-7-39Zm12 35c3 9-2 13-5 18-4 5-3 12 2 16 0-6 5-8 7-13 3-6 1-14-4-21Z"/>
+<title id="title">佑宸事業有限公司識別標誌</title>
+<desc id="desc">依楊凱迪消防設備師電子名片標誌重製的幾何識別圖樣</desc>
+<g fill="none" stroke="#1d2221" stroke-linecap="square" stroke-linejoin="miter">
+  <circle cx="54" cy="58" r="39" stroke-width="1.8"/>
+  <path d="M54 19 A39 39 0 0 0 22.5 81" stroke-width="15"/>
+  <path d="M54 19 A39 39 0 0 0 22.5 81" stroke="#d6e743" stroke-width="11.5"/>
+  <path d="M54 11V105" stroke-width="1.7"/>
+  <path d="M12 58H103" stroke-width="1.5"/>
+  <path d="M15 98L96 17" stroke-width="1.7"/>
+  <path d="M18 26L93 101" stroke-width="1.2"/>
+</g>
+<rect x="67" y="36" width="34" height="34" rx="1" fill="#4a4f4f" transform="rotate(45 84 53)"/>
+<path d="M54 19V97" stroke="#1d2221" stroke-width="1.7"/>
 </svg>
