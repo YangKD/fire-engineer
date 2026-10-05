@@ -31,13 +31,18 @@
 .home-page .process-grid article{min-height:220px;padding:22px 20px;border:1px solid #d9dbd4;border-radius:16px;background:#fff;box-shadow:0 7px 20px rgba(18,24,21,.03)}
 .home-page .process-grid article>span{display:inline-grid;place-items:center;width:36px;height:36px;border-radius:50%;background:#1d2221;color:#c4d84a;font-size:11px;font-weight:900}.home-page .process-grid h3{margin:28px 0 9px;font-size:18px}.home-page .process-grid p{margin:0;color:#6d746f;font-size:12px;line-height:1.8}
 
-.home-page .knowledge{background:#f8f7f3}
+/* Knowledge cards: deliberately monochrome for a cleaner, more professional homepage */
+.home-page .knowledge{background:#f7f7f5}
 .home-page .knowledge-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
 .home-page .knowledge-grid>a{display:block;color:inherit;text-decoration:none}
-.home-page .knowledge-grid article{position:relative;overflow:hidden;min-height:330px;padding:28px;border-radius:19px;display:flex;flex-direction:column;box-shadow:0 10px 28px rgba(17,23,20,.06);transition:.22s ease}
-.home-page .knowledge-grid>a:nth-child(1) article{background:#c7cdc2;color:#17201b}.home-page .knowledge-grid>a:nth-child(2) article{background:#c4d84a;color:#17201b}.home-page .knowledge-grid>a:nth-child(3) article{background:#252b29;color:#f4f3ef}
-.home-page .knowledge-grid article:after{content:"";position:absolute;width:230px;height:230px;border:1px solid currentColor;border-radius:50%;opacity:.12;right:-85px;bottom:-90px}.home-page .knowledge-grid article:hover{transform:translateY(-5px);box-shadow:0 18px 42px rgba(17,23,20,.11)}
-.home-page .knowledge-grid span{position:relative;z-index:1;align-self:flex-start;padding:6px 10px;border:1px solid currentColor;border-radius:999px;font-size:10px;font-weight:800;letter-spacing:.06em;opacity:.82}.home-page .knowledge-grid h3{position:relative;z-index:1;margin:54px 0 12px;font-size:24px;line-height:1.45}.home-page .knowledge-grid p{position:relative;z-index:1;margin:auto 0 0;font-size:13px;line-height:1.85;opacity:.78}.home-page .knowledge-grid>a:nth-child(1) article p{color:#344139;opacity:1}.home-page .knowledge-grid>a:nth-child(2) article p{color:#35401e;opacity:1}.home-page .knowledge-grid>a:nth-child(3) article p{color:#c8ceca;opacity:1}
+.home-page .knowledge-grid article,.home-page .knowledge-grid>a:nth-child(1) article,.home-page .knowledge-grid>a:nth-child(2) article,.home-page .knowledge-grid>a:nth-child(3) article{position:relative;overflow:hidden;min-height:330px;padding:28px;border:1px solid #d7d9d5;border-radius:19px;display:flex;flex-direction:column;background:#fff;color:#171b19;box-shadow:0 10px 28px rgba(17,23,20,.045);transition:.22s ease}
+.home-page .knowledge-grid article:after{content:"";position:absolute;width:230px;height:230px;border:1px solid #171b19;border-radius:50%;opacity:.07;right:-85px;bottom:-90px}
+.home-page .knowledge-grid article:hover{transform:translateY(-5px);background:#171b19;color:#fff;border-color:#171b19;box-shadow:0 18px 42px rgba(17,23,20,.12)}
+.home-page .knowledge-grid article:hover:after{border-color:#fff;opacity:.10}
+.home-page .knowledge-grid span{position:relative;z-index:1;align-self:flex-start;padding:6px 10px;border:1px solid currentColor;border-radius:999px;font-size:10px;font-weight:800;letter-spacing:.06em;opacity:.75}
+.home-page .knowledge-grid h3{position:relative;z-index:1;margin:54px 0 12px;font-size:24px;line-height:1.45}
+.home-page .knowledge-grid p,.home-page .knowledge-grid>a:nth-child(1) article p,.home-page .knowledge-grid>a:nth-child(2) article p,.home-page .knowledge-grid>a:nth-child(3) article p{position:relative;z-index:1;margin:auto 0 0;color:#626864;font-size:13px;line-height:1.85;opacity:1}
+.home-page .knowledge-grid article:hover p{color:#d2d5d3}
 
 .home-page .faq{background:#fff}.home-page .faq .wrap{max-width:980px}.home-page .faq .heading{justify-content:center;text-align:center}.home-page .faq .heading .section-no{justify-content:center}.home-page .faq-list{display:grid;gap:12px}.home-page .faq-list details{border:1px solid #dde0d9;border-radius:14px;background:#fafaf8;padding:0 20px}.home-page .faq-list summary{cursor:pointer;list-style:none;padding:18px 34px 18px 0;font-size:15px;font-weight:700;position:relative}.home-page .faq-list summary::-webkit-details-marker{display:none}.home-page .faq-list summary:after{content:"+";position:absolute;right:0;top:50%;transform:translateY(-50%);font-size:23px;color:#7e8d13;font-weight:500}.home-page .faq-list details[open] summary:after{content:"–"}.home-page .faq-list details p{margin:0;padding:0 0 19px;color:#687068;font-size:13px;line-height:1.85}
 
